@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "21c4b688ebf91f853fef74aef1538949",
+    "content-hash": "712fe8fe3a7cea45a5f9dab35078baa0",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -956,6 +956,39 @@
                 "source": "https://github.com/darylldoyle/svg-sanitizer/tree/0.15.4"
             },
             "time": "2022-02-21T09:13:59+00:00"
+        },
+        {
+            "name": "fab/site-package",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "./packages/site_package",
+                "reference": "e3bfe49c5402b89b74998e27c9c4baad850127ae"
+            },
+            "require": {
+                "bk2k/bootstrap-package": "^13.0 || ^14.0"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "typo3/cms": {
+                    "extension-key": "site_package"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Fab\\SitePackage\\": "Classes/"
+                }
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "homepage": "https://servir-ensemble.org",
+            "keywords": [
+                "TYPO3 CMS"
+            ],
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "firebase/php-jwt",
@@ -7454,7 +7487,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "fab/site-package": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
