@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+## #ddev-generated
+## Description: Download filemadin
+## Usage: app-fileadmin
+## Example: "ddev app-fileadmin"
+
+# Exit the script on error and unbound variable
+set -eu
+
+# Load common configuration
+source "/mnt/ddev_config/commands/config.sh"
+
+rsync -av -e "ssh -p ${SSH_PORT}" --exclude-from "$(pwd)/.ddev/commands/web/.rsyncignore" --delete ${SSH_HOST}:${DOCUMENT_ROOT}/fileadmin "${LOCAL_DOCUMENT_ROOT}"/

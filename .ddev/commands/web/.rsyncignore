@@ -1,0 +1,31 @@
+# System files
+.DS_Store
+
+# Archives files
+*.zip
+
+# Raw images
+*.tiff
+*.tif
+
+# Office documents
+*.rtf
+*.pptx
+*.ppt
+*.doc
+*.docx
+*.pages
+*.pdf
+*.PDF
+
+# Media files
+*.mp4
+*.mp3
+*.MP3
+*.mov
+*.wmv
+*.avi
+*.mpeg
+
+# Cache files
+**/**/_processed_/*
