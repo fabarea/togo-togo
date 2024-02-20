@@ -109,6 +109,8 @@ return [
         ],
     ],
     'MAIL' => [
+        'defaultMailFromAddress' => 'contact@togo-togo.org',
+        'defaultMailFromName' => 'Association Togo To Go',
         'transport' => 'sendmail',
         'transport_sendmail_command' => '/usr/sbin/sendmail_r -t -i',
         'transport_smtp_encrypt' => '',

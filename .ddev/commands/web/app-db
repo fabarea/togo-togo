@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
-# Usage:
-# ddev db
+
+## #ddev-generated
+## Description: Pull database from the remote server
+## Usage: app:db
+## Example: "ddev app:db"
 
 # Exit the script on error and unbound variable
 set -eu

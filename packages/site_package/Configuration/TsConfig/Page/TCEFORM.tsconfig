@@ -2,10 +2,12 @@
 # TCEFORM
 #
 TCEFORM {
-    pages {
+  pages {
 
-    }
-    tt_content {
+  }
 
-    }
+  tt_content {
+    imageheight.disabled = 0
+    imagewidth.disabled = 0
+  }
 }

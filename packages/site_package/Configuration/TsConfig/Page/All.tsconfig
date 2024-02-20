@@ -5,3 +5,16 @@
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:site_package/Configuration/TsConfig/Page/TCEFORM.tsconfig">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:site_package/Configuration/TsConfig/Page/TCEMAIN.tsconfig">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:site_package/Configuration/TsConfig/Page/Mod/WebLayout/BackendLayouts.tsconfig">
+
+mod.web_layout.BackendLayouts {
+  default.config.backend_layout.rows {
+    1 >
+    2 >
+    4 >
+  }
+  simple.config.backend_layout.rows {
+    1 >
+    2 >
+    4 >
+  }
+}

@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
 ## #ddev-generated
-## Description: Download filemadin
-## Usage: app-fileadmin
-## Example: "ddev app-fileadmin"
+## Description: Pull files from the remote server
+## Usage: app:fileadmin
+## Example: "ddev app:fileadmin"
 
 # Exit the script on error and unbound variable
 set -eu
