@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" datatype="plaintext" original="EXT:backend/Resources/Private/Language/Modules/content-security-policy.xlf" date="2023-01-11T00:00:00Z" product-name="typo3-cms-backend" target-language="fr">
+    <header/>
+    <body>
+      <trans-unit id="mlang_labels_tablabel" resname="mlang_labels_tablabel" approved="yes">
+        <source>Content Security Policy</source>
+        <target state="final">Stratégie de sécurité du contenu</target>
+      </trans-unit>
+      <trans-unit id="mlang_labels_tabdescr" resname="mlang_labels_tabdescr" approved="yes">
+        <source>Allows to manage Content Security Policy settings.</source>
+        <target state="final">Permet de gérer les paramètres de la stratégie de sécurité du contenu (Content Security Policy).</target>
+      </trans-unit>
+      <trans-unit id="mlang_tabs_tab" resname="mlang_tabs_tab" approved="yes">
+        <source>Content Security Policy</source>
+        <target state="final">Stratégie de sécurité du contenu</target>
+      </trans-unit>
+      <trans-unit id="module.callout.featureDisabled.message" resname="module.callout.featureDisabled.message" approved="yes">
+        <source>The following features flags are currently disabled and won't be shown in this module:</source>
+        <target state="final">Les options suivantes sont actuellement désactivées et ne seront pas affichées dans ce module :</target>
+      </trans-unit>
+      <trans-unit id="module.callout.customReporting.message" resname="module.callout.customReporting.message" approved="yes">
+        <source>Reporting is currently configured with these custom endpoints and won't be shown in this module:</source>
+        <target state="final">Le rapport est actuellement configuré avec ces terminaux personnalisés et ne sera pas affiché dans ce module :</target>
+      </trans-unit>
+      <trans-unit id="module.label.noEntriesAvailable" resname="module.label.noEntriesAvailable" approved="yes">
+        <source>No entries available.</source>
+        <target state="final">Aucune entrée disponible.</target>
+      </trans-unit>
+      <trans-unit id="module.label.reports" resname="module.label.reports" approved="yes">
+        <source>Reports</source>
+        <target state="final">Rapports</target>
+      </trans-unit>
+      <trans-unit id="module.label.created" resname="module.label.created" approved="yes">
+        <source>Created</source>
+        <target state="final">Créé</target>
+      </trans-unit>
+      <trans-unit id="module.label.scope" resname="module.label.scope" approved="yes">
+        <source>Scope</source>
+        <target state="final">Portée</target>
+      </trans-unit>
+      <trans-unit id="module.label.removeAll" resname="module.label.removeAll" approved="yes">
+        <source>Remove all</source>
+        <target state="final">Tout supprimer</target>
+      </trans-unit>
+      <trans-unit id="module.label.violation" resname="module.label.violation" approved="yes">
+        <source>Violation</source>
+        <target state="final">Violation</target>
+      </trans-unit>
+      <trans-unit id="module.label.uri" resname="module.label.uri" approved="yes">
+        <source>URI</source>
+        <target state="final">URI</target>
+      </trans-unit>
+      <trans-unit id="module.label.all" resname="module.label.all" approved="yes">
+        <source>All</source>
+        <target state="final">Tous</target>
+      </trans-unit>
+      <trans-unit id="module.label.details" resname="module.label.details" approved="yes">
+        <source>Details</source>
+        <target state="final">Détails</target>
+      </trans-unit>
+      <trans-unit id="module.label.disposition" resname="module.label.disposition" approved="yes">
+        <source>Disposition</source>
+        <target state="final">Disposition</target>
+      </trans-unit>
+      <trans-unit id="module.label.directive" resname="module.label.directive" approved="yes">
+        <source>Directive</source>
+        <target state="final">Directive</target>
+      </trans-unit>
+      <trans-unit id="module.label.blocked_uri" resname="module.label.blocked_uri" approved="yes">
+        <source>Blocked URI</source>
+        <target state="final">URI bloquée</target>
+      </trans-unit>
+      <trans-unit id="module.label.document_uri" resname="module.label.document_uri" approved="yes">
+        <source>Document URI</source>
+        <target state="final">URI du document</target>
+      </trans-unit>
+      <trans-unit id="module.label.sample" resname="module.label.sample" approved="yes">
+        <source>Sample</source>
+        <target state="final">Exemple</target>
+      </trans-unit>
+      <trans-unit id="module.label.user_agent" resname="module.label.user_agent" approved="yes">
+        <source>User Agent</source>
+        <target state="final">Agent utilisateur</target>
+      </trans-unit>
+      <trans-unit id="module.label.uuid" resname="module.label.uuid" approved="yes">
+        <source>UUID</source>
+        <target state="final">UUID</target>
+      </trans-unit>
+      <trans-unit id="module.label.source_file" resname="module.label.source_file" approved="yes">
+        <source>Source File</source>
+        <target state="final">Fichier source</target>
+      </trans-unit>
+      <trans-unit id="module.label.summary" resname="module.label.summary" approved="yes">
+        <source>Summary</source>
+        <target state="final">Résumé</target>
+      </trans-unit>
+      <trans-unit id="module.label.suggestions" resname="module.label.suggestions" approved="yes">
+        <source>Suggestions</source>
+        <target state="final">Suggestions</target>
+      </trans-unit>
+      <trans-unit id="module.label.guide.no_record_selected" resname="module.label.guide.no_record_selected" approved="yes">
+        <source>Select a row to see more information.</source>
+        <target state="final">Sélectionnez une ligne pour voir plus d'informations.</target>
+      </trans-unit>
+      <trans-unit id="module.button.apply" resname="module.button.apply" approved="yes">
+        <source>Apply</source>
+        <target state="final">Appliquer</target>
+      </trans-unit>
+      <trans-unit id="module.button.close" resname="module.button.close" approved="yes">
+        <source>Close</source>
+        <target state="final">Fermer</target>
+      </trans-unit>
+      <trans-unit id="module.button.mute" resname="module.button.mute" approved="yes">
+        <source>Mute</source>
+        <target state="final">Mode silencieux</target>
+      </trans-unit>
+      <trans-unit id="module.button.delete" resname="module.button.delete" approved="yes">
+        <source>Delete</source>
+        <target state="final">Supprimer</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
