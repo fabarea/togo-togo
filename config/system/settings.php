@@ -52,27 +52,6 @@ return [
             'automaticInstallation' => '1',
             'offlineMode' => '0',
         ],
-        'indexed_search' => [
-            'catdoc' => '/usr/bin/',
-            'debugMode' => '0',
-            'deleteFromIndexAfterEditing' => '1',
-            'disableFrontendIndexing' => '0',
-            'enableMetaphoneSearch' => '1',
-            'flagBitMask' => '192',
-            'fullTextDataLength' => '0',
-            'ignoreExtensions' => '',
-            'indexExternalURLs' => '0',
-            'maxAge' => '0',
-            'maxExternalFiles' => '5',
-            'minAge' => '24',
-            'pdf_mode' => '20',
-            'pdftools' => '/usr/bin/',
-            'ppthtml' => '/usr/bin/',
-            'unrtf' => '/usr/bin/',
-            'unzip' => '/usr/bin/',
-            'useMysqlFulltext' => '0',
-            'xlhtml' => '/usr/bin/',
-        ],
     ],
     'FE' => [
         'cacheHash' => [
@@ -156,6 +135,8 @@ return [
         'sitename' => 'TOGO To Go',
         'systemMaintainers' => [
             1,
+            4,
+            5,
         ],
     ],
 ];

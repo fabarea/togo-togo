@@ -1,0 +1,22 @@
+base: /
+errorHandling:
+  -
+    errorCode: 404
+    errorHandler: Page
+    errorContentSource: 't3://page?uid=5'
+languages:
+  -
+    title: Français
+    enabled: true
+    languageId: 0
+    base: /
+    typo3Language: default
+    locale: fr_CH.UTF-8
+    iso-639-1: en
+    navigationTitle: Français
+    hreflang: fr-CH
+    direction: ''
+    flag: fr
+    websiteTitle: ''
+rootPageId: 1
+websiteTitle: 'Togo to go'
